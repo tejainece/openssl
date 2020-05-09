@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-openssl enc -aes-128-ecb -k 1122334455667788 -base64 -in hello.txt -out hello.encrypted
+openssl enc -aes-128-ecb -in short_padded.txt -K B025700C28E7F0F97F7EA8EEEEC29F9F -out short_padded.encrypted -base64
